@@ -89,3 +89,7 @@ Code coverage at class level can be verified by navigating to **Example.java**
 
 ![Image](https://github.com/shankybnl/junit-jacoco-example/blob/master/images/3.png)
 
+
+
+Clone/download the working project from https://github.com/shankybnl/junit-jacoco-example
+
