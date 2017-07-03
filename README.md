@@ -2,7 +2,7 @@
 
 *Pre-requisite: gradle and java is installed on your machine.*
 
-1. Create a gradle project (using Eclipse IDE)
+1. Create a gradle project (I used Eclipse IDE)
 
 ![Image](https://github.com/shankybnl/junit-jacoco-example/blob/master/images/1.png)
 
