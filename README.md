@@ -4,11 +4,11 @@
 
 1. Create a gradle project (using Eclipse IDE)
 
-![Image](https://github.com/shankybnl/shankybnl.github.io/blob/master/images/1.png "gradle project")
+![Image](https://github.com/shankybnl/junit-jacoco-example/blob/master/images/1.png)
 
 2. Inside the project you will see two folders **main** and **test** under src folder. Under main you write your development  code and under test  you write your unit (Junit) tests and integration tests.
 
-![Image](https://github.com/shankybnl/shankybnl.github.io/blob/master/images/2.png "project")
+![Image](https://github.com/shankybnl/junit-jacoco-example/blob/master/images/2.png)
 
 3. Add the below lines of code to your **build.gradle** file present in the root directory.
 
@@ -72,6 +72,7 @@ gradle clean test
 
 6. Junit results report will be generated /JunitJacocoExample/build/reports/tests/test/classes/ExampleTest.html
 
+![Image](https://github.com/shankybnl/junit-jacoco-example/blob/master/images/5.png)
 
 
 7. To generate code coverage report, execute the below command.
@@ -82,9 +83,9 @@ gradle jacocoTestReport
 
 8. Code coverage report will be generated /JunitJacocoExample/build/jacocoHtml/index.html
 
-
+![Image](https://github.com/shankybnl/junit-jacoco-example/blob/master/images/4.png)
 
 Code coverage at class level can be verified by navigating to **Example.java**
 
-
+![Image](https://github.com/shankybnl/junit-jacoco-example/blob/master/images/3.png)
 
