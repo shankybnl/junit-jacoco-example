@@ -52,7 +52,7 @@ public class Example {
 }
 ```
 4. To verify this method, we will be writing Junit test under test folder with name **ExampleTest.java**
-*@Test* annontation tells Junit that it is a test method to execute.
+    *@Test* annontation tells Junit that it is a test method to execute.
 
 ```java
 public class ExampleTest {
