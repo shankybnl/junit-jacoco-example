@@ -8,6 +8,8 @@
 
 2. Inside the project you will see two folders **main** and **test** under src folder. Under main you write your development  code and under test  you write your unit (Junit) tests and integration tests.
 
+![Image](https://github.com/shankybnl/shankybnl.github.io/blob/master/images/2.png "project")
+
 3. Add the below lines of code to your **build.gradle** file present in the root directory.
 
 ```java
@@ -58,14 +60,14 @@ public class ExampleTest {
     @Test
 	public void verifySomeRandomMethod() {
 		Example junitTest = new Example();
-		junitTest.someRandomMethod(10, 9);
+		junitTest.someRandomMethod(11, 12);
 	}
 }
 ```
 5. Go to the root directory of your project. And execute the below command to execute Junit test.
 
 ```java
-gradle test
+gradle clean test
 ```
 
 6. Junit results report will be generated /JunitJacocoExample/build/reports/tests/test/classes/ExampleTest.html
